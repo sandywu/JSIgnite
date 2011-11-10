@@ -12,9 +12,7 @@ var url = require('url'),
 function _get_template_file(template, data, response)
 {
 	var tmp_file = path.join(process.cwd(), 'app/templates/' + template + '.tpl');
-	
-	console.log(tmp_file);
-	
+
 	path.exists(tmp_file, function(exists){
 	
 		if(! exists)
@@ -144,4 +142,4 @@ var template = {
 	}
 };
 
-exports.parse = template.parse;
+module.exports = template;

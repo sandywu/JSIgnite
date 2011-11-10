@@ -18,8 +18,4 @@ controller = {
 	}
 };
 
-//Why can't you just pass an object to export?
-for(i in controller)
-{
-	exports[i] = controller[i];
-}
+module.exports = controller;
