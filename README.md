@@ -1,0 +1,1 @@
+JSIgnite is a basic starting point for a NodeJS application. 
